@@ -1,0 +1,51 @@
+.dashboard-section {
+  margin: 2rem 1.5rem;
+}
+.dashboard-cards {
+  display: grid;
+  gap: 1rem;
+}
+.overview-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.revenue-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.actions-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.stat-card {
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.icon-circle {
+  font-size: 1.8rem;
+  margin-right: 0.8rem;
+}
+.action-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.action-card:hover {
+  background: #f4f4f4;
+}
+.activity-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.activity-icon {
+  font-size: 1.6rem;
+}

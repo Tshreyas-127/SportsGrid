@@ -1,0 +1,112 @@
+/* ================== PAGE BACKGROUND ================== */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Light theme for Register */
+.register-bg {
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf3);
+}
+
+/* ================== GLASS CARD ================== */
+.login-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  padding: 45px 40px;
+  border-radius: 20px;
+  width: 380px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Accent bar */
+.login-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(90deg, #0d6efd, #00c6ff);
+}
+
+/* ================== TITLE ================== */
+.login-card h2 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 28px;
+  color: #1f2937;
+}
+
+/* ================== INPUTS ================== */
+.login-card input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  background: #f9fafb;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-card input:focus {
+  border-color: #0d6efd;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+/* ================== BUTTON ================== */
+.login-card button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #0d6efd, #00c6ff);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.5);
+}
+
+.login-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(13, 110, 253, 0.7);
+}
+
+/* ================== LINKS ================== */
+.login-card .register-link {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-card .register-link span,
+.login-card .register-link a {
+  color: #0d6efd;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-card .register-link span:hover,
+.login-card .register-link a:hover {
+  text-decoration: underline;
+}
+
+/* ================== ERROR ================== */
+.login-card p {
+  font-size: 14px;
+  margin-top: 10px;
+}

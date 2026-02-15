@@ -1,0 +1,92 @@
+/* ===============================
+   MAIN DROPDOWN (LEVEL 1)
+================================ */
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+/* Hide main dropdown */
+.nav-item.dropdown > .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  z-index: 9999;
+}
+
+/* Show on hover */
+.nav-item.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* ===============================
+   SUBMENU (LEVEL 2+)
+================================ */
+
+.dropdown-submenu {
+  position: relative;
+}
+
+/* Hide submenu */
+.dropdown-submenu > .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 220px;
+  margin-left: 2px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  z-index: 9999;
+}
+
+/* Show submenu on hover */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* ===============================
+   DROPDOWN ITEMS
+================================ */
+
+.dropdown-item {
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #e9f2ff;
+  color: #0d6efd;
+}
+
+/* Prevent Bootstrap JS interference */
+.dropdown-menu.show {
+  display: block;
+}
+
+/* ===============================
+   MOBILE FIX
+================================ */
+
+@media (max-width: 992px) {
+
+  .nav-item.dropdown > .dropdown-menu {
+    position: static;
+    box-shadow: none;
+  }
+
+  .dropdown-submenu > .dropdown-menu {
+    position: static;
+    margin-left: 0;
+  }
+}
+
+

@@ -1,0 +1,99 @@
+/* ===== Whole Home Page Background ===== */
+body {
+  background: linear-gradient(180deg, #f2f6fc, #e9eff8);
+}
+
+/* Smooth white cards on background */
+.sports-gallery,
+.club-section,
+.facility-section {
+  background: transparent;
+}
+
+
+/* HERO */
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: white;
+}
+
+.hero-overlay h3 {
+  font-size: 1.4rem;
+}
+
+.hero-overlay h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.hero-buttons button {
+  margin-right: 15px;
+  border-radius: 25px;
+}
+
+/* ===== GSC Sports Gallery ===== */
+.sports-gallery {
+  padding: 90px 60px;
+  background: #fff;
+  text-align: center;
+}
+
+.sports-gallery h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.gallery-card {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
