@@ -1,147 +1,158 @@
-<!-- <<<<<<< HEAD
-# Getting Started with Create React App
+# 🏆 SportsGrid
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Smart Sports Club Management System
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# SportsGrid
-Built a full-stack Sports Club Management System using Spring Boot and React to manage users, memberships, bookings, events, and personalized fitness services. It features secure JWT-based role access for admins, members, trainers, and nutritionists, with a scalable layered architecture and responsive UI.
->>>>>>> 3809cf9ca48a4197556829041aff803420ac8d59 -->
-
-
-# SportsGrid
-
-Built a full-stack Sports Club Management System using Spring Boot and React to manage users, memberships, bookings, events, and personalized fitness services. It features secure JWT-based role access for admins, members, trainers, and nutritionists, with a scalable layered architecture and responsive UI.
+SportsGrid is a full-stack Sports Club Management System designed to streamline operations for modern fitness and sports centers. It enables seamless management of users, memberships, bookings, events, and personalized fitness services through a secure and scalable architecture.
 
 ---
 
-# Getting Started with Create React App
+## 🚀 Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SportsGrid digitizes sports club operations by providing:
 
-## Available Scripts
+* Secure role-based authentication (JWT)
+* Membership management
+* Event scheduling & booking system
+* Trainer & nutritionist management
+* Admin dashboard for centralized control
+* Responsive and modern UI
 
-In the project directory, you can run:
+Built using enterprise-grade architecture with clean separation of concerns.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 Frontend
 
-### `npm test`
+* React.js
+* JavaScript (ES6+)
+* Axios
+* Bootstrap / CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔹 Backend
 
-### `npm run build`
+* Spring Boot
+* Java
+* REST APIs
+* JWT Authentication
+* Maven
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔹 Database
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* MySQL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔐 User Roles
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **Admin** – Manage users, memberships, and events
+* **Member** – Book sessions & manage profile
+* **Trainer** – Manage training sessions
+* **Nutritionist** – Provide personalized diet plans
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Each role has secured access using JWT-based authentication and authorization.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🏗 Architecture
 
-## Learn More
+* Layered Architecture (Controller → Service → Repository)
+* RESTful API design
+* Secure authentication with JWT
+* Scalable and modular structure
+* Clean code practices
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📂 Project Structure
 
-### Code Splitting
-https://facebook.github.io/create-react-app/docs/code-splitting
+```
+SportsGrid
+│
+├── backend/
+│   ├── src/main/java
+│   ├── src/main/resources
+│   └── pom.xml
+│
+├── frontend/
+│   ├── src/
+│   └── package.json
+```
 
-### Analyzing the Bundle Size
-https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+---
 
-### Making a Progressive Web App
-https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## ⚙️ Installation & Setup
 
-### Advanced Configuration
-https://facebook.github.io/create-react-app/docs/advanced-configuration
+### 🔹 Backend Setup
 
-### Deployment
-https://facebook.github.io/create-react-app/docs/deployment
+```bash
+cd backend
+mvn clean install
+mvn spring-boot:run
+```
 
-### `npm run build` fails to minify
-https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Runs on:
+
+```
+http://localhost:8080
+```
+
+---
+
+### 🔹 Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Runs on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌟 Key Features
+
+✔ Role-based secure authentication
+✔ Dynamic membership plans
+✔ Online booking system
+✔ Event management
+✔ Personalized trainer & nutritionist services
+✔ Fully responsive UI
+
+---
+
+## 📈 Future Enhancements
+
+* Payment gateway integration
+* Email notifications
+* Mobile app version
+* Analytics dashboard
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Your Name**
+Full Stack Developer | Java & React Enthusiast
+
+---
+
+## 📌 Why This Project Stands Out
+
+This project demonstrates:
+
+* Full-stack development skills
+* Secure authentication implementation
+* REST API integration
+* Scalable backend architecture
+* Real-world business logic handling
+
+---
+
+⭐ If you like this project, consider giving it a star!
